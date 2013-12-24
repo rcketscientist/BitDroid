@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BitDroid</string>
+	<string name="longString">LONG</string>
+	<string name="shortString">SHORT</string>
+	<string name="buy">BUY</string>
+	<string name="sell">SELL</string>
+	<string name="order_size">Order size (BTC)</string>
+	<string name="order_size_hint">How much?</string>
+	
+	<string name="settings">Settings</string>
+	<string name="chart">Chart</string>
+	
+	<string name="exchange">Exchange</string>
+	<string name="margin">Margin</string>
+	<string name="deposit">Deposit</string>
+	<string name="trading">Trading</string>
+	<string name="close">Close</string>
+	
+	<!-- Common Strings -->
+	<string name="amount">Amount</string>
+	<string name="executed">Executed</string>
+	<string name="available">Available</string>
+	<string name="pair">Pair</string>
+	<string name="price">Price</string>
+		
+	<!-- Order Strings -->
+	<string name="order_header">Orders</string>
+	<string name="id">ID</string>
+	<string name="route">Route</string>
+	<string name="age">Age</string>
+	<string name="status">Status</string>
+	<string name="type">Type</string>
+	<string name="cancelOrder">Cancel Order</string>
+	<string name="orderDetails">Order Details</string>
+	<string name="cancelSuccess">Cancelled suscessfully.</string>
+	<string name="cancelFail">NOT cancelled.</string>
+	
+	<!-- Position Strings -->
+	<string name="position_header">Positions</string>
+	<string name="liquidation">Liquidation</string>
+	<string name="profit_cash">P/L($)</string>
+	<string name="profit_percent">P/L(%)</string>
+	<string name="swap">Swap</string>
+	<string name="actions">Actions</string>
+	
+	<!-- Balances Strings -->
+	<string name="balance_header">Balances</string>
+	<string name="usd">USD</string>
+	<string name="btc">BTC</string>
+	
+	<string name="passwordTitle">Enter Your Password</string>
+	<string name="passwordMessage">This password is unique to this app, it is NOT your Bitfinex login.</string>
+	<string name="apiKey">API Key</string>
+	<string name="secreteKey">Secret Key</string>
+	<string name="getApiKeys">Get API Keys</string>
+	
+	<string name="apiTitle">Enter API Keys</string>
+	<string name="apiMessage">Copy from the browser and paste here.</string>
+	
+	<string-array name="order_type">
+	    <item>Market</item>
+	    <item>Limit</item>
+	    <item>Stop</item>
+	    <item>Trailing Stop</item>
+	    <item>Fill of Kill</item>
+	</string-array>
+
+</resources>

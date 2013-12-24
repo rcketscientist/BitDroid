@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+         Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels.
+    -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="TradeView">
+  		<attr name="buyButton" />
+  		<attr name="sellButton" />
+  		<attr name="android:gravity" />
+	</declare-styleable>
+	
+    <declare-styleable name="ExpandableRefreshHeader">
+  		<attr name="titleText" />
+  		<attr name="srcExpand" />
+  		<attr name="srcCollapse" />
+  		<attr name="srcRefresh" />
+  		<attr name="isCollapsed" />
+	</declare-styleable>
+    
+    <attr name="buyButton" format="string"/>
+    <attr name="sellButton" format="string"/>
+    <attr name="titleText" format="string" />
+    <attr name="srcExpand" format="reference" />
+    <attr name="srcCollapse" format="reference" />
+    <attr name="srcRefresh" format="reference" />
+    <attr name="isCollapsed" format="boolean" />
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp" >
+
+    <TextView
+        android:id="@+id/positionPair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:text="@string/pair" />
+
+    <TextView
+        android:id="@+id/positionAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:text="@string/amount" />
+
+    <TextView
+        android:id="@+id/positionPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:text="@string/price" />
+
+    <TextView
+        android:id="@+id/positionProfitCash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:text="@string/profit_cash" />
+
+    <TextView
+        android:id="@+id/positionProfitPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:text="@string/profit_percent" />
+
+    <TextView
+        android:id="@+id/positionSwap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:text="@string/swap" />
+
+</TableRow>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderRow"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/orderId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/id"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderPair"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/pair"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/type"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderAmount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/amount"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderPrice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/price"
+        android:textStyle="bold" />
+
+<!--     <TextView
+        android:id="@+id/orderRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/route"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/age"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/status"
+        android:textStyle="bold" /> -->
+
+</TableRow>

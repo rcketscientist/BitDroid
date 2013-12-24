@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp" >
+
+            <TextView
+                android:id="@+id/askText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_price"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:padding="0dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/buyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_button"
+                android:padding="0dp"
+                android:text="@string/longString"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/buyType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/order_type" />
+
+            <EditText
+                android:id="@+id/buyLimitationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/neutral"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/positionPair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/order_size"
+                android:textColor="@color/black_overlay"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/quantityTransaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/order_size_hint"
+                android:inputType="numberDecimal"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/bidText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/red_price"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:padding="0dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/sellButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/red_button"
+                android:padding="0dp"
+                android:text="@string/shortString"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/sellType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/order_type" />
+
+            <EditText
+                android:id="@+id/sellLimitationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:visibility="gone" >
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+    </LinearLayout>
+</merge>

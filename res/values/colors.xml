@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="green_button">#9ec052</color>
+    <color name="green_price">#c9dc9d</color>
+    <color name="red_price">#eb8787</color>
+    <color name="red_button">#e15656</color>
+    <color name="neutral">#e7e7e7</color>
+    <color name="header">#438db6</color>
+    <color name="profit">#9dc24a</color>
+    <color name="loss">#c43c35</color>
+
+</resources>

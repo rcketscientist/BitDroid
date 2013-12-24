@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.anthonymandra.bitfinex.widget.TradeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:buyButton="@string/buy"
+        custom:sellButton="@string/sell" />
+
+    <com.anthonymandra.bitfinex.widget.ExpandableRefreshHeader
+        android:id="@+id/ordersHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        custom:isCollapsed="true"
+        custom:srcCollapse="@drawable/ic_action_collapse"
+        custom:srcExpand="@drawable/ic_action_expand"
+        custom:titleText="@string/order_header" />
+
+    <TableLayout
+        android:id="@+id/ordersTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/order_row" />
+    </TableLayout>
+
+    <com.anthonymandra.bitfinex.widget.BalancesTable
+        android:id="@+id/balancesTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
