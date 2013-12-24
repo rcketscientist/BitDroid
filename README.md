@@ -1,2 +1,2 @@
-bitfinex
+BitDroid
 ========
